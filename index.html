@@ -30,14 +30,14 @@
   }
 
   /* Barra fina superior */
-  .top-bar {
-    background-color: #fafafd;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    height: 28px;              /* mais fina */
-    display: flex;
-    align-items: center;
-    transition: transform 0.3s ease, opacity 0.2s ease;
-  }
+.top-bar {
+  background-color: #fafafd;
+  /* removida a borda inferior */
+  height: 28px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, opacity 0.2s ease;
+}
 
   .top-bar-content {
     width: 100%;
@@ -144,8 +144,7 @@
     <!-- Barra fina superior -->
     <div class="top-bar">
       <div class="top-bar-content">
-        <span>Minha Loja Amazon</span>
-        <span>Ofertas do dia</span>
+        <span>Como associado da Amazon, ganho comissões por compras qualificadas.</span>
       </div>
     </div>
 
